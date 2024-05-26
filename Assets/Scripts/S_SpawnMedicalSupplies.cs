@@ -8,55 +8,50 @@ using UnityEngine.XR.ARSubsystems;
 public class S_SpawnMedicalSupplies : MonoBehaviour
 {
 
-    // Hold the AR Raycast Manager component
+    // Hold the position of the AR Plane
     private ARRaycastManager RaycastManager;
 
-    // Hold the reference to the spawned game object
-    private GameObject SpawnedObject;
+    // Hold true if there is plane selected
+    private bool PlaneSelected = false;
 
-    // Hold the reference to the prefab being spawned
-    [SerializeField] 
-    private GameObject PlaceablePrefab;
+    // Hold the medical supplied prefab
+    public GameObject MedicalSuppliesPrefab;
 
-    // Hold a list of the raycast hits
-    static List<ARRaycastHit> Hits = new List<ARRaycastHit>(); 
+    // Hold the position of the AR Plane
+    private Vector3 ARPlanePosition;
+
+    // Hold the rotation of the AR Plane
+    private Quaternion ARPlaneRotation;
+
+    // Hold the instance of the supplies 
+    private GameObject MedicalSuppliesInstance;
 
     /*
-     * @brief Get the ARRaycastManager component
-     * @param none
+     * @brief Set the plane data
+     * @param Vector3 Position the position of the ARPlane
+     * Querternion Rotation the rotation of the ARPlane
      * @return void
      */
-    private void Awake()
+    public void SetARPlaneData(Vector3 Position, Quaternion Rotation)
     {
 
-        // Set the Raycast Manager component
-        RaycastManager = GetComponent<ARRaycastManager>(); 
+        // Set the AR plane position
+        ARPlanePosition = Position;
+
+        // Set the AR plane rotation
+        ARPlaneRotation = Rotation;
     }
 
     /*
-     * @brief Check if the user touched the screen and return the position
-     * @param out Vector2 TouchPosition the position of the touch on the screen
-     * @return bool 
+     * @brief Set the plane selected state
+     * @param bool State the bool state if a plane is selected
+     * @return void
      */
-    bool TryGetTouchPosition(out Vector2 TouchPosition)
+    public void SetPlaneSelected(bool State)
     {
 
-        // Check if the user is touching the screen
-        if (Input.touchCount > 0)
-        {
-
-            // Set the touch position
-            TouchPosition = Input.GetTouch(0).position;
-
-            // Return true
-            return true;
-        }
-
-        // Set the touch position to default
-        TouchPosition = default;
-
-        // Return false
-        return false;
+        // Set the plane selected state
+        PlaneSelected = State;
     }
 
     /*
@@ -67,29 +62,17 @@ public class S_SpawnMedicalSupplies : MonoBehaviour
     public void SpawnSupplies()
     {
 
-        // Check if the user touched the screen
-        if(TryGetTouchPosition(out Vector2 TouchPosition))
+       // Check if there is a plane selected
+       if(PlaneSelected)
         {
 
-            // Return
-            return;
+            // Check if there is an instance of the medical supplies
+            if(MedicalSuppliesInstance != null) Destroy(MedicalSuppliesInstance);
+
+            // Spawn the medical supplies and set the isntance
+            MedicalSuppliesInstance = Instantiate(MedicalSuppliesPrefab, ARPlanePosition, ARPlaneRotation);
         }
-
-        // Check if the raycast is hitting a plane
-        if(RaycastManager.Raycast(TouchPosition, Hits, TrackableType.PlaneWithinPolygon))
-        {
-
-            // Hold the hit position
-            var HitResult = Hits[0].pose;
-
-            // Check if the object has not spawned
-            if(SpawnedObject == null)
-            {
-
-                // Spawn the object
-                SpawnedObject = Instantiate(PlaceablePrefab, HitResult.position, HitResult.rotation);
-            }
-        }
+        
     }
 }
 
