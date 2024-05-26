@@ -43,6 +43,10 @@ public class S_SpawnAnchors : MonoBehaviour
 
         // Anchor creation successful
         Debug.Log("Anchor spawned successfully.");
+
+        // Set the object's parent to be the anchor 
+        CurrentObject.transform.parent = anchor.transform;
+
     }
 
 }
