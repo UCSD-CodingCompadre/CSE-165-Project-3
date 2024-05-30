@@ -2230,7 +2230,6 @@ GameObject:
   - component: {fileID: 1865533054}
   - component: {fileID: 1865533059}
   - component: {fileID: 1865533058}
-  - component: {fileID: 1865533057}
   - component: {fileID: 1865533060}
   - component: {fileID: 1865533061}
   - component: {fileID: 1865533063}
@@ -2316,20 +2315,6 @@ MonoBehaviour:
   m_PlanePrefab: {fileID: 1585201990951412, guid: a6b7ca1d53c75490595d1f0d5f43be38,
     type: 3}
   m_DetectionMode: 1
---- !u!114 &1865533057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1865533050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88e4c90fca3492b4c92ed88162ead275, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MedicalSuppliesPrefab: {fileID: 1370923687498649518, guid: 9880f5e9db7764b4ca7943f609b13013,
-    type: 3}
 --- !u!114 &1865533058
 MonoBehaviour:
   m_ObjectHideFlags: 0

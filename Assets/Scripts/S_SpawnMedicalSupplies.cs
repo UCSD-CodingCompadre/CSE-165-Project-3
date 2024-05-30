@@ -71,7 +71,7 @@ public class S_SpawnMedicalSupplies : MonoBehaviour
             // Spawn the medical supplies and set the isntance
             MedicalSuppliesInstance = Instantiate(MedicalSuppliesPrefab, new Vector3(0,0,0), Quaternion.identity);
         }
-        MedicalSuppliesInstance = Instantiate(MedicalSuppliesPrefab, new Vector3(1, -0.25f, 0), Quaternion.identity);
+        MedicalSuppliesInstance = Instantiate(MedicalSuppliesPrefab, new Vector3(1, 0.5f, 0), Quaternion.identity);
     }
 }
 
