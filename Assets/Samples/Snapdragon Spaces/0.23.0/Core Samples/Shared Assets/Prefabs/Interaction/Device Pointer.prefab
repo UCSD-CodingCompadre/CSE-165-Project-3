@@ -28,13 +28,20 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3417347985948541779}
+<<<<<<< HEAD
+=======
+  serializedVersion: 2
+>>>>>>> tuesday
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.3, y: -0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 0
+=======
+>>>>>>> tuesday
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8054921061502503219
 MonoBehaviour:
@@ -68,7 +75,12 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+<<<<<<< HEAD
     m_Reference: {fileID: 2144132872282492305, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
+=======
+    m_Reference: {fileID: 2144132872282492305, guid: 3b8161acd44bb4e9489a58e42924c914,
+      type: 3}
+>>>>>>> tuesday
   m_RotationAction:
     m_UseReference: 1
     m_Action:
@@ -80,7 +92,12 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+<<<<<<< HEAD
     m_Reference: {fileID: 6289970810668441550, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
+=======
+    m_Reference: {fileID: 6289970810668441550, guid: 3b8161acd44bb4e9489a58e42924c914,
+      type: 3}
+>>>>>>> tuesday
   m_IsTrackedAction:
     m_UseReference: 0
     m_Action:
@@ -116,7 +133,12 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+<<<<<<< HEAD
     m_Reference: {fileID: 1063613578457033467, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
+=======
+    m_Reference: {fileID: 1063613578457033467, guid: 3b8161acd44bb4e9489a58e42924c914,
+      type: 3}
+>>>>>>> tuesday
   m_SelectActionValue:
     m_UseReference: 0
     m_Action:
@@ -140,7 +162,11 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+<<<<<<< HEAD
     m_Reference: {fileID: 58574795314512359, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
+=======
+    m_Reference: {fileID: 0}
+>>>>>>> tuesday
   m_ActivateActionValue:
     m_UseReference: 0
     m_Action:
@@ -164,7 +190,12 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+<<<<<<< HEAD
     m_Reference: {fileID: 1063613578457033467, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
+=======
+    m_Reference: {fileID: 1063613578457033467, guid: 3b8161acd44bb4e9489a58e42924c914,
+      type: 3}
+>>>>>>> tuesday
   m_UIPressActionValue:
     m_UseReference: 0
     m_Action:
@@ -200,7 +231,12 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+<<<<<<< HEAD
     m_Reference: {fileID: 1063613578457033467, guid: 3b8161acd44bb4e9489a58e42924c914, type: 3}
+=======
+    m_Reference: {fileID: 1063613578457033467, guid: 3b8161acd44bb4e9489a58e42924c914,
+      type: 3}
+>>>>>>> tuesday
   m_RotateAnchorAction:
     m_UseReference: 0
     m_Action:
@@ -237,6 +273,33 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
+<<<<<<< HEAD
+=======
+  m_ScaleToggleAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Toggle
+      m_Type: 1
+      m_ExpectedControlType: 
+      m_Id: 8f9bccd2-7e42-4382-b8ec-41d1b2f973fc
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_ScaleDeltaAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Scale Delta
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: c9b2f7a0-c16f-4fdf-b967-21896f83e4bf
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+>>>>>>> tuesday
   m_ButtonPressPoint: 0.5
 --- !u!114 &3417347985948541781
 MonoBehaviour:
@@ -339,6 +402,10 @@ MonoBehaviour:
   m_SampleFrequency: 20
   m_HitDetectionType: 0
   m_SphereCastRadius: 0.1
+<<<<<<< HEAD
+=======
+  m_ConeCastAngle: 6
+>>>>>>> tuesday
   m_RaycastMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -350,6 +417,10 @@ MonoBehaviour:
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 3
   m_EnableUIInteraction: 1
+<<<<<<< HEAD
+=======
+  m_BlockUIOnInteractableSelection: 1
+>>>>>>> tuesday
   m_AllowAnchorControl: 0
   m_UseForceGrab: 0
   m_RotateSpeed: 180
@@ -365,8 +436,15 @@ MonoBehaviour:
   m_EnableARRaycasting: 0
   m_OccludeARHitsWith3DObjects: 0
   m_OccludeARHitsWith2DObjects: 0
+<<<<<<< HEAD
 --- !u!120 &3417347985948541784
 LineRenderer:
+=======
+  m_ScaleMode: 0
+--- !u!120 &3417347985948541784
+LineRenderer:
+  serializedVersion: 2
+>>>>>>> tuesday
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -409,7 +487,11 @@ LineRenderer:
   m_Positions: []
   m_Parameters:
     serializedVersion: 3
+<<<<<<< HEAD
     widthMultiplier: 0.005
+=======
+    widthMultiplier: 0.01
+>>>>>>> tuesday
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -461,16 +543,30 @@ LineRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
+<<<<<<< HEAD
+=======
+      m_ColorSpace: -1
+>>>>>>> tuesday
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     numCornerVertices: 4
     numCapVertices: 4
     alignment: 0
     textureMode: 0
+<<<<<<< HEAD
     shadowBias: 0.5
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+=======
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MaskInteraction: 0
+  m_UseWorldSpace: 1
+  m_Loop: 0
+  m_ApplyActiveColorSpace: 0
+>>>>>>> tuesday
 --- !u!114 &3417347985948541783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -543,6 +639,10 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+<<<<<<< HEAD
+=======
+    m_ColorSpace: -1
+>>>>>>> tuesday
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   m_InvalidColorGradient:
@@ -572,6 +672,10 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+<<<<<<< HEAD
+=======
+    m_ColorSpace: -1
+>>>>>>> tuesday
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   m_BlockedColorGradient:
@@ -601,6 +705,10 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
+<<<<<<< HEAD
+=======
+    m_ColorSpace: -1
+>>>>>>> tuesday
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   m_TreatSelectionAsValidState: 0

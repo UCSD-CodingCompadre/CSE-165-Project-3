@@ -50,12 +50,22 @@ public class S_ModeSwitcher : MonoBehaviour
      * @param SelectEnterEventArgs args the SelectEnter arguments
      * @return void
      */
+<<<<<<< HEAD
     public void OnSelectEntered(SelectEnterEventArgs args)
     {
         // Check the current mode and perform the corresponding functionality
         switch (ModeManager.GetCurrentMode())
         {
 
+=======
+    //public void OnSelectEntered(SelectEnterEventArgs args)
+    public void selectMode()
+    {
+        Debug.Log(ModeManager.GetCurrentMode());
+        // Check the current mode and perform the corresponding functionality
+        switch (ModeManager.GetCurrentMode())
+        {
+>>>>>>> tuesday
             // Check if the Mode is PlaneSelection
             case Mode.PlaneSelection:
 
@@ -135,7 +145,11 @@ public class S_ModeSwitcher : MonoBehaviour
                 {
 
                     // Switch the mode
+<<<<<<< HEAD
                     ModeManager.SwitchMode(Mode.AnchorPlacement);
+=======
+                    ModeManager.SwitchMode(Mode.PlaneSelection);
+>>>>>>> tuesday
 
                     // Switch the mode switch text
                     ModeSwitchText.text = "Plane Selection Mode";

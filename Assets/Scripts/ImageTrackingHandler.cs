@@ -1,13 +1,23 @@
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.UI;
+<<<<<<< HEAD
+=======
+using TMPro;
+>>>>>>> tuesday
 
 public class ImageTrackingHandler : MonoBehaviour
 {
     [SerializeField]
+<<<<<<< HEAD
     private Text trackingStateText; // UI Text to display tracking state
     [SerializeField]
     private Text positionText;      // UI Text to display position
+=======
+    private TMP_Text trackingStateText; // UI Text to display tracking state
+    [SerializeField]
+    private TMP_Text positionText;      // UI Text to display position
+>>>>>>> tuesday
     [SerializeField]
     private GameObject virtualWoundPrefab; // Prefab to instantiate for the virtual wound
 

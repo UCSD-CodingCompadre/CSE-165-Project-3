@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 7318231705661246547}
   - component: {fileID: 3560357961708116300}
   - component: {fileID: 5001685016217911535}
+<<<<<<< HEAD
+=======
+  - component: {fileID: -4730609883639778139}
+>>>>>>> tuesday
   m_Layer: 0
   m_Name: P_Wound
   m_TagString: Untagged
@@ -106,3 +110,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &-4730609883639778139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3822848940294461925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12fcb70dda7c187448115fad26a4042d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  patchList: []
+  wound: {fileID: 0}
+  woundPrefab: {fileID: 3822848940294461925}
+  isCreated: 0
+>>>>>>> tuesday

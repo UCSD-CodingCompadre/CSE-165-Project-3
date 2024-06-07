@@ -104,6 +104,10 @@ public class S_ModeManager : MonoBehaviour
 
                 if (ARPlane != null)
                 {
+<<<<<<< HEAD
+=======
+                    Debug.Log("CSE 165 Plane hit");
+>>>>>>> tuesday
                     // Save the selected AR plane
                     SelectedPlane = ARPlane;
 
@@ -125,8 +129,43 @@ public class S_ModeManager : MonoBehaviour
 
     private void HandleAnchorPlacement()
     {
+<<<<<<< HEAD
         // Handle placement logic here
         // Example: Allow the user to place objects on the selected plane
+=======
+        // Check if the user touches the screen
+        /*if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        {
+            // Perform a raycast from the touch position
+            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            RaycastHit hit;
+
+            // Check if the ray hits an AR plane
+            if (Physics.Raycast(ray, out hit))
+            {
+                ARPlane ARPlane = hit.collider.GetComponent<ARPlane>();
+
+                if (ARPlane != null)
+                {
+                    Debug.Log("CSE 165 Plane hit (anchor)");
+                    // Save the selected AR plane
+                    SelectedPlane = ARPlane;
+
+                    S_SpawnAnchor AnchorScript = ARSessionOrigin.GetComponent<S_SpawnAnchor>();
+                    if (AnchorScript != null)
+                    {
+                        // Set the data and state
+                        AnchorScript.SetARPlaneData(SelectedPlane.transform.position, SelectedPlane.transform.rotation);
+                        AnchorScript.SetPlaneSelected(true);
+                    }
+                    else
+                    {
+                        Debug.LogError("S_SpawnAnchor script component not found on GameObject.");
+                    }
+                }
+            }
+        }*/
+>>>>>>> tuesday
     }
 
     private void HandleWoundPlacement()

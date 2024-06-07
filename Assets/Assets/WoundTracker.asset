@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: WoundTracker
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_GuidLow: 0
   m_GuidHigh: 0
+=======
+  m_GuidLow: 4744222548122867109
+  m_GuidHigh: 3618016840894112136
+>>>>>>> tuesday
   m_DataStore:
     m_Storage: []
   m_Images:
@@ -21,9 +26,18 @@ MonoBehaviour:
       m_GuidLow: 5741974394224890094
       m_GuidHigh: 6407150767607576729
     m_SerializedTextureGuid:
+<<<<<<< HEAD
       m_GuidLow: 2598711485020378262
       m_GuidHigh: 6760061044038410139
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: VirtualWound_Icon-Cube
     m_Texture: {fileID: 2800000, guid: ba5e14967a5324109b9fdd05b48fd05d, type: 3}
+=======
+      m_GuidLow: 6261342218435218706
+      m_GuidHigh: 5067641782487885595
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: VirtualWound_Icon-Cube
+    m_Texture: {fileID: 2800000, guid: dafccd12c19256e41b271e065ae15346, type: 3}
+>>>>>>> tuesday

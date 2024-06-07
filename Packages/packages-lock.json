@@ -1,7 +1,11 @@
 {
   "dependencies": {
     "com.qualcomm.qcht.unity.interactions": {
+<<<<<<< HEAD
       "version": "file:Snapdragon_Spaces_SDK_0_23_0_for_Unity/Unity Package/com.qualcomm.qcht.unity.interactions-4.1.7.tgz",
+=======
+      "version": "file:Snapdragon_Spaces_SDK_0_23_0_for_Unity/UnityPackage/com.qualcomm.qcht.unity.interactions-4.1.7.tgz",
+>>>>>>> tuesday
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -10,7 +14,11 @@
       }
     },
     "com.qualcomm.snapdragon.spaces": {
+<<<<<<< HEAD
       "version": "file:Snapdragon_Spaces_SDK_0_23_0_for_Unity/Unity Package/com.qualcomm.snapdragon.spaces-0.23.0.tgz",
+=======
+      "version": "file:Snapdragon_Spaces_SDK_0_23_0_for_Unity/UnityPackage/com.qualcomm.snapdragon.spaces-0.23.0.tgz",
+>>>>>>> tuesday
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -19,6 +27,7 @@
         "com.unity.xr.interaction.toolkit": "2.3.2"
       }
     },
+<<<<<<< HEAD
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
@@ -62,19 +71,29 @@
     "com.unity.ide.vscode": {
       "version": "1.2.5",
       "depth": 0,
+=======
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 2,
+>>>>>>> tuesday
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.inputsystem": {
       "version": "1.7.0",
+<<<<<<< HEAD
       "depth": 0,
+=======
+      "depth": 2,
+>>>>>>> tuesday
       "source": "registry",
       "dependencies": {
         "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.learn.iet-framework": {
       "version": "3.1.3",
       "depth": 0,
@@ -134,11 +153,16 @@
     },
     "com.unity.searcher": {
       "version": "4.9.2",
+=======
+    "com.unity.mathematics": {
+      "version": "1.2.6",
+>>>>>>> tuesday
       "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.settings-manager": {
       "version": "2.0.1",
       "depth": 1,
@@ -168,6 +192,10 @@
     },
     "com.unity.textmeshpro": {
       "version": "3.0.6",
+=======
+    "com.unity.textmeshpro": {
+      "version": "3.0.9",
+>>>>>>> tuesday
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -175,6 +203,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.timeline": {
       "version": "1.7.6",
       "depth": 0,
@@ -190,12 +219,18 @@
     "com.unity.ugui": {
       "version": "1.0.0",
       "depth": 0,
+=======
+    "com.unity.ugui": {
+      "version": "1.0.0",
+      "depth": 1,
+>>>>>>> tuesday
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+<<<<<<< HEAD
     "com.unity.visualscripting": {
       "version": "1.9.1",
       "depth": 0,
@@ -212,6 +247,14 @@
       "source": "registry",
       "dependencies": {
         "com.unity.xr.arfoundation": "5.1.1",
+=======
+    "com.unity.xr.arcore": {
+      "version": "5.1.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.arfoundation": "5.1.4",
+>>>>>>> tuesday
         "com.unity.xr.core-utils": "2.1.0",
         "com.unity.xr.management": "4.0.1",
         "com.unity.modules.androidjni": "1.0.0",
@@ -220,8 +263,13 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.arfoundation": {
+<<<<<<< HEAD
       "version": "5.1.1",
       "depth": 0,
+=======
+      "version": "5.1.4",
+      "depth": 1,
+>>>>>>> tuesday
       "source": "registry",
       "dependencies": {
         "com.unity.editorcoroutines": "1.0.0",
@@ -237,6 +285,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.xr.arkit": {
       "version": "5.1.1",
       "depth": 0,
@@ -249,6 +298,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> tuesday
     "com.unity.xr.core-utils": {
       "version": "2.2.3",
       "depth": 1,
@@ -260,7 +311,11 @@
     },
     "com.unity.xr.interaction.toolkit": {
       "version": "2.5.2",
+<<<<<<< HEAD
       "depth": 0,
+=======
+      "depth": 1,
+>>>>>>> tuesday
       "source": "registry",
       "dependencies": {
         "com.unity.inputsystem": "1.7.0",
@@ -285,7 +340,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
+<<<<<<< HEAD
       "version": "4.4.0",
+=======
+      "version": "4.4.1",
+>>>>>>> tuesday
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -298,7 +357,11 @@
     },
     "com.unity.xr.openxr": {
       "version": "1.9.1",
+<<<<<<< HEAD
       "depth": 0,
+=======
+      "depth": 1,
+>>>>>>> tuesday
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.4.0",

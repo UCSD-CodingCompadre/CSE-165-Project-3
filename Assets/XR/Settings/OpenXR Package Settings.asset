@@ -187,7 +187,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a24be4b5ebfe5f4d8ed1de9b25cb7aa, type: 3}
   m_Name: HandCommonPosesInteraction Standalone
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_enabled: 0
+=======
+  m_enabled: 1
+>>>>>>> tuesday
   nameUi: Hand Interaction Poses
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handinteractionposes
@@ -270,7 +274,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a55e2f339a4744babb080d663cf37a2f, type: 3}
   m_Name: BaseRuntimeFeature Standalone
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_enabled: 0
+=======
+  m_enabled: 1
+>>>>>>> tuesday
   nameUi: Base Runtime
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.base
@@ -537,7 +545,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7eb03d48a4e23493fba7b405178b6b3d, type: 3}
   m_Name: ImageTrackingFeature Standalone
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_enabled: 0
+=======
+  m_enabled: 1
+>>>>>>> tuesday
   nameUi: Image Tracking
   version: 0.23.0
   featureIdInternal: com.qualcomm.snapdragon.spaces.imagetracking
@@ -670,7 +682,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_enabled: 0
+=======
+  m_enabled: 1
+>>>>>>> tuesday
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch

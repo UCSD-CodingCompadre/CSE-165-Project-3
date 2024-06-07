@@ -61,6 +61,7 @@ public class S_SpawnMedicalSupplies : MonoBehaviour
      */
     public void SpawnSupplies()
     {
+<<<<<<< HEAD
 
        // Check if there is a plane selected
        if(PlaneSelected)
@@ -73,6 +74,19 @@ public class S_SpawnMedicalSupplies : MonoBehaviour
             MedicalSuppliesInstance = Instantiate(MedicalSuppliesPrefab, ARPlanePosition, ARPlaneRotation);
         }
         
+=======
+        Debug.Log("SPAWNSUPPLIES HAS BEEN CALLED");
+       // Check if there is a plane selected
+       if(PlaneSelected)
+        {
+            Debug.Log("PLANE SELECTED");
+            // Check if there is an instance of the medical supplies
+            if (MedicalSuppliesInstance != null) Destroy(MedicalSuppliesInstance);
+            // Spawn the medical supplies and set the isntance
+            MedicalSuppliesInstance = Instantiate(MedicalSuppliesPrefab, new Vector3(0,0,0), Quaternion.identity);
+        }
+        MedicalSuppliesInstance = Instantiate(MedicalSuppliesPrefab, new Vector3(1, -0.25f, 0), Quaternion.identity);
+>>>>>>> tuesday
     }
 }
 
